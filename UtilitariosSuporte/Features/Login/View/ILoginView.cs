@@ -8,6 +8,7 @@ namespace UtilitariosSuporte.Features.Login.View
         event EventHandler LoginClicked;
         string Usuario { get; }
         string Senha { get; }
-        void Fechar();
+        void LimparCampos();
+        void Logado();
     }
 }

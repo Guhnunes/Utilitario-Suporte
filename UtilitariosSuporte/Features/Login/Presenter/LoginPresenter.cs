@@ -21,15 +21,16 @@ namespace UtilitariosSuporte.Features.Login.Presenter
             string user = View.Usuario;
             string pass = View.Senha;
             // A validação acontece aqui
-            if (user == "admin" && pass == "123")
+            if (user == "ADMIN" && pass == "123")
             {
-                ControleDeMensagens.Informar("Login bem-sucedido!");
-                View.Fechar();
+                View.Logado();
             }
             else
             {
                 ControleDeMensagens.Informar("Usuário ou senha incorretos!");
+                View.LimparCampos();
             }
         }
+
     }
 }

@@ -3,27 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\login\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\login\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\features\\login\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\login\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\features\\login\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\presenter\\loginpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\features\\login\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\login\\view\\iloginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\menu\\view\\imenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\menu\\view\\imenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\menu\\presenter\\menupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\menu\\presenter\\menupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\features\\login\\view\\iloginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\view\\iloginview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\menu\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\menu\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\menu\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\menu\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -34,17 +46,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\Presenter\\MenuPresenter.cs",
+              "RelativeDocumentMoniker": "Features\\Menu\\Presenter\\MenuPresenter.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\Presenter\\MenuPresenter.cs",
+              "RelativeToolTip": "Features\\Menu\\Presenter\\MenuPresenter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:45:33.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.cs",
+              "RelativeDocumentMoniker": "Features\\Menu\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.cs",
+              "RelativeToolTip": "Features\\Menu\\FormMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:24:49.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IMenuView.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\View\\IMenuView.cs",
+              "RelativeDocumentMoniker": "Features\\Menu\\View\\IMenuView.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\View\\IMenuView.cs",
+              "RelativeToolTip": "Features\\Menu\\View\\IMenuView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:23:27.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormLogin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.Designer.cs",
               "RelativeDocumentMoniker": "Features\\Login\\FormLogin.Designer.cs",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.Designer.cs",
               "RelativeToolTip": "Features\\Login\\FormLogin.Designer.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAtwEkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwEsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T14:04:41.903Z",
               "EditorCaption": ""
@@ -52,32 +103,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIAywBIAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T13:26:05.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.cs",
               "RelativeDocumentMoniker": "Features\\Login\\FormLogin.cs",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.cs",
               "RelativeToolTip": "Features\\Login\\FormLogin.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4vyoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T13:09:01.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "README.txt",
               "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\README.txt",
               "RelativeDocumentMoniker": "README.txt",
@@ -85,8 +123,7 @@
               "RelativeToolTip": "README.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-27T12:34:15.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T12:34:15.057Z"
             },
             {
               "$type": "Document",
@@ -96,22 +133,35 @@
               "RelativeDocumentMoniker": "Features\\Login\\Presenter\\LoginPresenter.cs",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\Presenter\\LoginPresenter.cs",
               "RelativeToolTip": "Features\\Login\\Presenter\\LoginPresenter.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA7wBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T12:32:52.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ILoginView.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\View\\ILoginView.cs",
               "RelativeDocumentMoniker": "Features\\Login\\View\\ILoginView.cs",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\View\\ILoginView.cs",
               "RelativeToolTip": "Features\\Login\\View\\ILoginView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T12:29:37.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.Designer.cs",
+              "RelativeDocumentMoniker": "Features\\Menu\\FormMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.Designer.cs",
+              "RelativeToolTip": "Features\\Menu\\FormMenu.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:27:32.304Z",
               "EditorCaption": ""
             }
           ]

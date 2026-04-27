@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using UtilitariosSuporte.Features.Login.Presenter;
 using UtilitariosSuporte.Features.Login.View;
 
 namespace UtilitariosSuporte.Features.Login
@@ -15,6 +14,7 @@ namespace UtilitariosSuporte.Features.Login
         {
             InitializeComponent();
             ConfigurarEstilo();
+            this.AcceptButton = btnLogin;
         }
 
         private void ConfigurarEstilo()
@@ -33,12 +33,16 @@ namespace UtilitariosSuporte.Features.Login
         {
             LoginClicked?.Invoke(this, EventArgs.Empty);
         }
-        // Atalho para fechar no botão cancelar ou 'X'
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-        public void Fechar()
+        public void LimparCampos()
+        {
+            txtSenha.Clear();
+            txtUsuario.Focus();
+        }
+        public void Logado()
         {
             this.DialogResult = DialogResult.OK;
             this.Close();
