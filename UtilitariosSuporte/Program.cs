@@ -1,12 +1,18 @@
 ﻿using Autofac;
 using System;
+using System.IO;
 using System.Windows.Forms;
+using UtilitariosSuporte.Features.Infraestrutura;
 using UtilitariosSuporte.Features.Login;
 using UtilitariosSuporte.Features.Login.Presenter;
 using UtilitariosSuporte.Features.Login.View;
 using UtilitariosSuporte.Features.Menu;
 using UtilitariosSuporte.Features.Menu.Presenter;
 using UtilitariosSuporte.Features.Menu.View;
+using UtilitariosSuporte.Features.CaminhoFiscal;
+using UtilitariosSuporte.Features.CaminhoFiscal.Presenter;
+using UtilitariosSuporte.Features.CaminhoFiscal.Repositories;
+using UtilitariosSuporte.Features.CaminhoFiscal.View;
 
 namespace UtilitariosSuporte
 {
@@ -20,10 +26,25 @@ namespace UtilitariosSuporte
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            string appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string caminhoIni = Path.Combine(appData, "SGC_Config.ini");
+            var sgcConfig = new SgcConfig(caminhoIni);
+            string stringConexaoFirebird = sgcConfig.ObterStringConexao();
+            if (string.IsNullOrEmpty(stringConexaoFirebird))
+            {
+                MessageBox.Show($"Erro ao tentar conectar banco de dados!\nCaminho buscado: {caminhoIni}",
+                                "Erro fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             var builder = new ContainerBuilder();
 
             // Registra os componentes
+            //REGISTRO DE CONEXÃO
+            builder.RegisterType<FabricaDeConexao>()
+                   .As<IFabricaDeConexao>()
+                   .WithParameter("stringDeConexao", stringConexaoFirebird)
+                   .SingleInstance();
             //LOGIN
             builder.RegisterType<FormLogin>().As<ILoginView>();
             builder.RegisterType<LoginPresenter>();
@@ -31,6 +52,11 @@ namespace UtilitariosSuporte
             //MENU
             builder.RegisterType<FormMenu>().As<IMenuView>();
             builder.RegisterType<MenuPresenter>();
+
+            //DIR FISCAL
+            builder.RegisterType<FormDirFiscal>().As<ICaminhoFiscalView>();
+            builder.RegisterType<CaminhoFiscalPresenter>();
+            builder.RegisterType<CaminhoFiscalRepository>().As<ICaminhoFiscalRepository>();
 
             var container = builder.Build();
 

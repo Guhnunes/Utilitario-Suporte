@@ -30,3 +30,11 @@ C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Bu
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Memory.xml
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Debug\UtilitariosSuporte.Features.Menu.FormMenu.resources
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.IO.Pipelines.dll
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Text.Json.dll
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.IO.Pipelines.xml
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\bin\Debug\System.Text.Json.xml
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Debug\UtilitariosSuporte.Features.CaminhoFiscal.FormDirFiscal.resources

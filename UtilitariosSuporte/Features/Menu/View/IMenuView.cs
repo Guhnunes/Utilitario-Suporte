@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace UtilitariosSuporte.Features.Menu.View
 {
     public interface IMenuView
     {
-        // Aqui você adicionará eventos para os botões do menu
-        // Exemplo: event EventHandler AbrirSuporteClicked;
+        event EventHandler SuporteClicked;
+        void MostrarNoConteudo(Control tela);
         void Exibir();
     }
 }
