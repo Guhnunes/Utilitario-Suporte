@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
 using UtilitariosSuporte.Features.CaminhoFiscal.View;
+using UtilitariosSuporte.Features.Infraestrutura;
 
 namespace UtilitariosSuporte.Features.CaminhoFiscal
 {
-    public partial class FormDirFiscal : Form, ICaminhoFiscalView
+    public partial class FormDirFiscal : BaseForm, ICaminhoFiscalView
     {
         // Supondo que você arrastou um TextBox chamado txtInfoSuporte no Designer
         public string TextoDiretorioNFe

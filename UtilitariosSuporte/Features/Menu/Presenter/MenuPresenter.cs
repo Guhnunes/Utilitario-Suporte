@@ -35,6 +35,7 @@ namespace UtilitariosSuporte.Features.Menu.Presenter
             suportePresenter.SetView(suporteView);
             // Manda a View do Menu exibir o formulário de suporte no painel
             View.MostrarNoConteudo((Control)suporteView);
+            View.DestacarBotaoMenu("btnCaminhoFiscal");
         }
     }
 }

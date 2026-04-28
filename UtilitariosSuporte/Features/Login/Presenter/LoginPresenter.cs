@@ -21,7 +21,7 @@ namespace UtilitariosSuporte.Features.Login.Presenter
             string user = View.Usuario;
             string pass = View.Senha;
             // A validação acontece aqui
-            if (user == "ADMIN" && pass == "123")
+            if (user == "SUPORTE" && pass == "21075365")
             {
                 View.Logado();
             }

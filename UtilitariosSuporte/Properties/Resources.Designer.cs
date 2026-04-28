@@ -61,6 +61,16 @@ namespace UtilitariosSuporte.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] SBRIcon {
+            get {
+                object obj = ResourceManager.GetObject("SBRIcon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap SBRlogo {

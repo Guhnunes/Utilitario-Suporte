@@ -8,5 +8,6 @@ namespace UtilitariosSuporte.Features.Menu.View
         event EventHandler SuporteClicked;
         void MostrarNoConteudo(Control tela);
         void Exibir();
+        void DestacarBotaoMenu(string nomeBotao);
     }
 }

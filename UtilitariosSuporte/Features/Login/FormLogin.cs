@@ -2,10 +2,11 @@
 using System.Drawing;
 using System.Windows.Forms;
 using UtilitariosSuporte.Features.Login.View;
+using UtilitariosSuporte.Features.Infraestrutura;
 
 namespace UtilitariosSuporte.Features.Login
 {
-    public partial class FormLogin : Form, ILoginView
+    public partial class FormLogin : BaseForm, ILoginView
     {
         public event EventHandler LoginClicked;
         public string Usuario => txtUsuario.Text;
@@ -15,6 +16,7 @@ namespace UtilitariosSuporte.Features.Login
             InitializeComponent();
             ConfigurarEstilo();
             this.AcceptButton = btnLogin;
+            this.Shown += FormLogin_Shown;
         }
 
         private void ConfigurarEstilo()
@@ -40,12 +42,23 @@ namespace UtilitariosSuporte.Features.Login
         public void LimparCampos()
         {
             txtSenha.Clear();
-            txtUsuario.Focus();
+            txtSenha.Focus();
         }
         public void Logado()
         {
             this.DialogResult = DialogResult.OK;
             this.Close();
+        }
+        private void FormLogin_Shown(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(txtUsuario.Text))
+            {
+                txtSenha.Focus();
+            }
+            else
+            {
+                txtUsuario.Focus();
+            }
         }
     }
 }

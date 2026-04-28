@@ -16,7 +16,7 @@
         private void InitializeComponent()
         {
             this.pnlLateral = new System.Windows.Forms.Panel();
-            this.btnSuporte = new System.Windows.Forms.Button();
+            this.btnCaminhoFiscal = new System.Windows.Forms.Button();
             this.picLogoMenu = new System.Windows.Forms.PictureBox();
             this.pnlConteudo = new System.Windows.Forms.Panel();
             this.lblTituloMenu = new System.Windows.Forms.Label();
@@ -27,7 +27,7 @@
             // pnlLateral
             // 
             this.pnlLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.pnlLateral.Controls.Add(this.btnSuporte);
+            this.pnlLateral.Controls.Add(this.btnCaminhoFiscal);
             this.pnlLateral.Controls.Add(this.picLogoMenu);
             this.pnlLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLateral.Location = new System.Drawing.Point(0, 0);
@@ -35,18 +35,18 @@
             this.pnlLateral.Size = new System.Drawing.Size(229, 598);
             this.pnlLateral.TabIndex = 0;
             // 
-            // btnSuporte
+            // btnCaminhoFiscal
             // 
-            this.btnSuporte.FlatAppearance.BorderSize = 0;
-            this.btnSuporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSuporte.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.btnSuporte.ForeColor = System.Drawing.Color.White;
-            this.btnSuporte.Location = new System.Drawing.Point(0, 160);
-            this.btnSuporte.Name = "btnSuporte";
-            this.btnSuporte.Size = new System.Drawing.Size(229, 53);
-            this.btnSuporte.TabIndex = 1;
-            this.btnSuporte.Text = "Diretórios Fiscais";
-            this.btnSuporte.UseVisualStyleBackColor = true;
+            this.btnCaminhoFiscal.FlatAppearance.BorderSize = 0;
+            this.btnCaminhoFiscal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCaminhoFiscal.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnCaminhoFiscal.ForeColor = System.Drawing.Color.White;
+            this.btnCaminhoFiscal.Location = new System.Drawing.Point(0, 160);
+            this.btnCaminhoFiscal.Name = "btnCaminhoFiscal";
+            this.btnCaminhoFiscal.Size = new System.Drawing.Size(229, 53);
+            this.btnCaminhoFiscal.TabIndex = 1;
+            this.btnCaminhoFiscal.Text = "Diretórios Fiscais";
+            this.btnCaminhoFiscal.UseVisualStyleBackColor = true;
             // 
             // picLogoMenu
             // 
@@ -92,7 +92,7 @@
 
         private System.Windows.Forms.Panel pnlLateral;
         private System.Windows.Forms.Panel pnlConteudo;
-        private System.Windows.Forms.Button btnSuporte;
+        private System.Windows.Forms.Button btnCaminhoFiscal;
         private System.Windows.Forms.PictureBox picLogoMenu;
         private System.Windows.Forms.Label lblTituloMenu;
     }
