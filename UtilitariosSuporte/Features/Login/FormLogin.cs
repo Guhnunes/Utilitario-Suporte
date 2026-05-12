@@ -23,7 +23,6 @@ namespace UtilitariosSuporte.Features.Login
         {
             // Melhora o visual inicial via código
             this.BackColor = Color.FromArgb(240, 240, 240);
-            btnLogin.BackColor = Color.FromArgb(79, 70, 229);
             btnLogin.ForeColor = Color.White;
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.FlatAppearance.BorderSize = 0;
