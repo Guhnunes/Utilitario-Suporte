@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UtilitariosSuporte.exe" size="1602488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UtilitariosSuporte.exe" size="1610168">
       <assemblyIdentity name="UtilitariosSuporte" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3yeSl2HJ2h6rEtSsHjan1UxW2XoZHYKz0F9uFUlCTHs=</dsig:DigestValue>
+        <dsig:DigestValue>29U1NdLt2b0H4rxQoPGTwYKGHD5zjhatmirQykZd5Nc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

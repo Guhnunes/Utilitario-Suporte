@@ -2,7 +2,7 @@
 
 namespace UtilitariosSuporte.Features.CaminhoFiscal.View
 {
-    public interface ICaminhoFiscalView
+    public interface IDirFiscalView
     {
         event EventHandler SalvarAlteracaoClicked;
         string TextoDiretorioNFe { get; set; }

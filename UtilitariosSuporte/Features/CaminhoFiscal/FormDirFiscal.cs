@@ -5,7 +5,7 @@ using UtilitariosSuporte.Features.Infraestrutura;
 
 namespace UtilitariosSuporte.Features.CaminhoFiscal
 {
-    public partial class FormDirFiscal : BaseForm, ICaminhoFiscalView
+    public partial class FormDirFiscal : BaseForm, IDirFiscalView
     {
         // Supondo que você arrastou um TextBox chamado txtInfoSuporte no Designer
         public string TextoDiretorioNFe

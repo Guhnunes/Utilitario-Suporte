@@ -21,7 +21,22 @@ namespace UtilitariosSuporte.Features.Menu.Presenter
         {
             base.SetView(view);
             view.SuporteClicked += OnSuporteClicked;
+            view.CompartilhamentoClicked += OnCompartilhamentoClicked;
             AbrirTelaSuporte();
+        }
+        private void OnCompartilhamentoClicked(object sender, EventArgs e)
+        {
+            AbrirTelaCompartilhamento();
+        }
+        private void AbrirTelaCompartilhamento()
+        {
+            var compView = _scope.Resolve<UtilitariosSuporte.Features.Compartilhamento.View.ICompartilhamentoView>();
+            var compPresenter = _scope.Resolve<UtilitariosSuporte.Features.Compartilhamento.Presenter.CompartilhamentoPresenter>();
+
+            compPresenter.SetView(compView);
+
+            View.MostrarNoConteudo((Control)compView);
+            View.DestacarBotaoMenu("btnCompartilhamento");
         }
         private void OnSuporteClicked(object sender, EventArgs e)
         {
@@ -29,11 +44,9 @@ namespace UtilitariosSuporte.Features.Menu.Presenter
         }
         private void AbrirTelaSuporte()
         {
-            // Resolve a View de Suporte via Autofac
-            var suporteView = _scope.Resolve<ICaminhoFiscalView>();
+            var suporteView = _scope.Resolve<IDirFiscalView>();
             var suportePresenter = _scope.Resolve<CaminhoFiscalPresenter>();
             suportePresenter.SetView(suporteView);
-            // Manda a View do Menu exibir o formulário de suporte no painel
             View.MostrarNoConteudo((Control)suporteView);
             View.DestacarBotaoMenu("btnCaminhoFiscal");
         }

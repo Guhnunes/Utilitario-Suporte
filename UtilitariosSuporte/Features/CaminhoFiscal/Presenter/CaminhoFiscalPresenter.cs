@@ -5,7 +5,7 @@ using UtilitariosSuporte.Features.CaminhoFiscal.View;
 
 namespace UtilitariosSuporte.Features.CaminhoFiscal.Presenter
 {
-    public class CaminhoFiscalPresenter : BasePresenter<ICaminhoFiscalView>
+    public class CaminhoFiscalPresenter : BasePresenter<IDirFiscalView>
     {
         private readonly ICaminhoFiscalRepository _repository;
 
@@ -14,7 +14,7 @@ namespace UtilitariosSuporte.Features.CaminhoFiscal.Presenter
             _repository = repository;
         }
 
-        public override void SetView(ICaminhoFiscalView view)
+        public override void SetView(IDirFiscalView view)
         {
             base.SetView(view);
             View.SalvarAlteracaoClicked += OnSalvarAlteracaoClicked;

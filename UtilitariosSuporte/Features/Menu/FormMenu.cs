@@ -9,6 +9,7 @@ namespace UtilitariosSuporte.Features.Menu
     public partial class FormMenu : BaseForm, IMenuView
     {
         public event EventHandler SuporteClicked;
+        public event EventHandler CompartilhamentoClicked;
         public FormMenu()
         {
             InitializeComponent();
@@ -16,6 +17,7 @@ namespace UtilitariosSuporte.Features.Menu
             this.Size = new System.Drawing.Size(800, 600);
             this.StartPosition = FormStartPosition.CenterScreen;
             btnCaminhoFiscal.Click += btnSuporte_Click;
+            btnCompartilhamento.Click += btnCompartilhamento_Click;
         }
 
         public void Exibir()
@@ -25,6 +27,10 @@ namespace UtilitariosSuporte.Features.Menu
         private void btnSuporte_Click(object sender, EventArgs e)
         {
             SuporteClicked?.Invoke(this, EventArgs.Empty);
+        }
+        private void btnCompartilhamento_Click(object sender, EventArgs e)
+        {
+            CompartilhamentoClicked?.Invoke(this, EventArgs.Empty);
         }
         public void MostrarNoConteudo(Control tela)
         {

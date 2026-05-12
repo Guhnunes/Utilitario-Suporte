@@ -23,10 +23,10 @@ C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\Utilita
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.Properties.Resources.resources
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.GenerateResource.cache
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.CoreCompileInputs.cache
-C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.Fody.CopyLocal.cache
-C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.exe.manifest
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.application
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\Utilitar.2C0AD2B1.Up2Date
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.exe
 C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.pdb
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.Fody.CopyLocal.cache
+C:\Users\gusta\Desktop\UtilitariosSuporte\UtilitariosSuporte\obj\Release\UtilitariosSuporte.csproj.Fody.RuntimeCopyLocal.cache

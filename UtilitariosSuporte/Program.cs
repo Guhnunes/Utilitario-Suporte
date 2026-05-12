@@ -1,7 +1,16 @@
 ﻿using Autofac;
 using System;
+using System.Diagnostics;
 using System.IO;
+using System.Security.Principal;
 using System.Windows.Forms;
+using UtilitariosSuporte.Features.CaminhoFiscal;
+using UtilitariosSuporte.Features.CaminhoFiscal.Presenter;
+using UtilitariosSuporte.Features.CaminhoFiscal.Repositories;
+using UtilitariosSuporte.Features.CaminhoFiscal.View;
+using UtilitariosSuporte.Features.Compartilhamento;
+using UtilitariosSuporte.Features.Compartilhamento.Presenter;
+using UtilitariosSuporte.Features.Compartilhamento.View;
 using UtilitariosSuporte.Features.Infraestrutura;
 using UtilitariosSuporte.Features.Login;
 using UtilitariosSuporte.Features.Login.Presenter;
@@ -9,10 +18,6 @@ using UtilitariosSuporte.Features.Login.View;
 using UtilitariosSuporte.Features.Menu;
 using UtilitariosSuporte.Features.Menu.Presenter;
 using UtilitariosSuporte.Features.Menu.View;
-using UtilitariosSuporte.Features.CaminhoFiscal;
-using UtilitariosSuporte.Features.CaminhoFiscal.Presenter;
-using UtilitariosSuporte.Features.CaminhoFiscal.Repositories;
-using UtilitariosSuporte.Features.CaminhoFiscal.View;
 
 namespace UtilitariosSuporte
 {
@@ -24,6 +29,30 @@ namespace UtilitariosSuporte
         [STAThread]
         static void Main()
         {
+            // --- INÍCIO DA LÓGICA DE AUTO-ELEVAÇÃO ---
+            if (!IsAdministrator())
+            {
+                var processInfo = new ProcessStartInfo
+                {
+                    UseShellExecute = true,
+                    WorkingDirectory = Environment.CurrentDirectory,
+                    FileName = Application.ExecutablePath,
+                    Verb = "runas" // Força o prompt do Windows (UAC)
+                };
+
+                try
+                {
+                    Process.Start(processInfo);
+                }
+                catch (System.ComponentModel.Win32Exception)
+                {
+                    // O usuário clicou em "Não" no prompt do UAC
+                    MessageBox.Show("Este utilitário precisa de privilégios de administrador para aplicar correções de rede e sistema.",
+                                    "Acesso Negado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                return; // Encerra a instância sem privilégios
+            }
+            // --- FIM DA LÓGICA DE AUTO-ELEVAÇÃO ---
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             string appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
@@ -54,9 +83,13 @@ namespace UtilitariosSuporte
             builder.RegisterType<MenuPresenter>();
 
             //DIR FISCAL
-            builder.RegisterType<FormDirFiscal>().As<ICaminhoFiscalView>();
+            builder.RegisterType<FormDirFiscal>().As<IDirFiscalView>();
             builder.RegisterType<CaminhoFiscalPresenter>();
             builder.RegisterType<CaminhoFiscalRepository>().As<ICaminhoFiscalRepository>();
+
+            //COMPARTILHAMENTO
+            builder.RegisterType<FormCompartilhamento>().As<ICompartilhamentoView>();
+            builder.RegisterType<CompartilhamentoPresenter>().AsSelf();
 
             var container = builder.Build();
 
@@ -80,6 +113,15 @@ namespace UtilitariosSuporte
                     Application.Run((Form)menuView);
                 }
             }
+        }
+        /// <summary>
+        /// Verifica se o processo atual possui privilégios de administrador.
+        /// </summary>
+        private static bool IsAdministrator()
+        {
+            var identity = WindowsIdentity.GetCurrent();
+            var principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
         }
     }
 }

@@ -17,6 +17,7 @@
         {
             this.pnlLateral = new System.Windows.Forms.Panel();
             this.btnCaminhoFiscal = new System.Windows.Forms.Button();
+            this.btnCompartilhamento = new System.Windows.Forms.Button();
             this.picLogoMenu = new System.Windows.Forms.PictureBox();
             this.pnlConteudo = new System.Windows.Forms.Panel();
             this.lblTituloMenu = new System.Windows.Forms.Label();
@@ -28,6 +29,7 @@
             // 
             this.pnlLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.pnlLateral.Controls.Add(this.btnCaminhoFiscal);
+            this.pnlLateral.Controls.Add(this.btnCompartilhamento);
             this.pnlLateral.Controls.Add(this.picLogoMenu);
             this.pnlLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLateral.Location = new System.Drawing.Point(0, 0);
@@ -47,6 +49,19 @@
             this.btnCaminhoFiscal.TabIndex = 1;
             this.btnCaminhoFiscal.Text = "Diretórios Fiscais";
             this.btnCaminhoFiscal.UseVisualStyleBackColor = true;
+            // 
+            // btnCompartilhamento
+            // 
+            this.btnCompartilhamento.FlatAppearance.BorderSize = 0;
+            this.btnCompartilhamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompartilhamento.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btnCompartilhamento.ForeColor = System.Drawing.Color.White;
+            this.btnCompartilhamento.Location = new System.Drawing.Point(0, 213);
+            this.btnCompartilhamento.Name = "btnCompartilhamento";
+            this.btnCompartilhamento.Size = new System.Drawing.Size(229, 53);
+            this.btnCompartilhamento.TabIndex = 2;
+            this.btnCompartilhamento.Text = "Compartilhamento";
+            this.btnCompartilhamento.UseVisualStyleBackColor = true;
             // 
             // picLogoMenu
             // 
@@ -95,5 +110,6 @@
         private System.Windows.Forms.Button btnCaminhoFiscal;
         private System.Windows.Forms.PictureBox picLogoMenu;
         private System.Windows.Forms.Label lblTituloMenu;
+        private System.Windows.Forms.Button btnCompartilhamento;
     }
 }
