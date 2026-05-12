@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Security.Principal;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 using UtilitariosSuporte.Features.CaminhoFiscal;
 using UtilitariosSuporte.Features.CaminhoFiscal.Presenter;
 using UtilitariosSuporte.Features.CaminhoFiscal.Repositories;
@@ -27,7 +28,7 @@ namespace UtilitariosSuporte
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
         [STAThread]
-        static void Main()
+        static async Task Main()
         {
             // --- INÍCIO DA LÓGICA DE AUTO-ELEVAÇÃO ---
             if (!IsAdministrator())
@@ -55,6 +56,27 @@ namespace UtilitariosSuporte
             // --- FIM DA LÓGICA DE AUTO-ELEVAÇÃO ---
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
+            string versaoLocal = "1.2.0";
+            bool estaAtualizado = await VerificadorAtualizacao.IsVersaoAtualizada(versaoLocal);
+
+            if (!estaAtualizado)
+            {
+                var resultado = MessageBox.Show(
+                    "Existe uma nova versão disponível no GitHub! Deseja baixar agora?",
+                    "Atualização Disponível",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Information);
+
+                if (resultado == DialogResult.Yes)
+                {
+                    // Abre o navegador no link do repositório
+                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/blob/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte.exe");
+                    return; // Fecha o app para o usuário instalar a nova
+                }
+            }
+
             string appData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string caminhoIni = Path.Combine(appData, "SGC_Config.ini");
             var sgcConfig = new SgcConfig(caminhoIni);
@@ -68,7 +90,6 @@ namespace UtilitariosSuporte
 
             var builder = new ContainerBuilder();
 
-            // Registra os componentes
             //REGISTRO DE CONEXÃO
             builder.RegisterType<FabricaDeConexao>()
                    .As<IFabricaDeConexao>()
@@ -95,17 +116,14 @@ namespace UtilitariosSuporte
 
             using (var scope = container.BeginLifetimeScope())
             {
-                // 1. Resolve e executa o Login
                 var loginView = scope.Resolve<ILoginView>();
                 var loginPresenter = scope.Resolve<LoginPresenter>();
                 loginPresenter.SetView(loginView);
 
                 Application.Run((Form)loginView);
 
-                // 2. Verifica se o login foi bem sucedido (DialogResult.OK)
                 if (((Form)loginView).DialogResult == DialogResult.OK)
                 {
-                    // 3. Resolve e executa o Menu
                     var menuView = scope.Resolve<IMenuView>();
                     var menuPresenter = scope.Resolve<MenuPresenter>();
                     menuPresenter.SetView(menuView);

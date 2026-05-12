@@ -128,6 +128,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VerificadorAtualizacao.cs" />
     <Compile Include="Features\Compartilhamento\FormCompartilhamento.cs">
       <SubType>Form</SubType>
     </Compile>

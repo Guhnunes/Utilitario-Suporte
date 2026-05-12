@@ -223,14 +223,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UtilitariosSuporte.exe" size="1675192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UtilitariosSuporte.exe" size="1677752">
       <assemblyIdentity name="UtilitariosSuporte" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uR4mmG0LvOJUjhtA6ifZDC8jEYkKhRqtqoqOSkDhlfQ=</dsig:DigestValue>
+        <dsig:DigestValue>6BgbcrtCRyLbIybJvWS0VSB9rsn3clXu13QzkmfDCbU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -267,7 +267,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>WWnvbk9x8dM+rw1o0hBmrisij+bgftWRKve0jXDzWuw=</dsig:DigestValue>
+      <dsig:DigestValue>AtGy210yQ31Z/gGuoWcHpC5SHylGdlmiZiAooaMTcdE=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
