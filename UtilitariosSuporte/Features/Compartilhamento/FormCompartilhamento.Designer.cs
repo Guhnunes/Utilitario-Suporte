@@ -51,7 +51,7 @@
             this.btnConfirmar.Size = new System.Drawing.Size(120, 35);
             this.btnConfirmar.TabIndex = 2;
             this.btnConfirmar.Text = "Aplicar";
-            this.btnConfirmar.UseVisualStyleBackColor = false;
+            this.btnConfirmar.UseVisualStyleBackColor = true;
             // 
             // FormCompartilhamento
             // 

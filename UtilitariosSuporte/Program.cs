@@ -58,7 +58,7 @@ namespace UtilitariosSuporte
             Application.SetCompatibleTextRenderingDefault(false);
 
             //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
-            string versaoLocal = "1.2.0";
+            string versaoLocal = "1.2.1";
             bool estaAtualizado = await VerificadorAtualizacao.IsVersaoAtualizada(versaoLocal);
 
             if (!estaAtualizado)
@@ -72,7 +72,7 @@ namespace UtilitariosSuporte
                 if (resultado == DialogResult.Yes)
                 {
                     // Abre o navegador no link do repositório
-                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/blob/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte.exe");
+                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/raw/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte.exe?raw=true");
                     return; // Fecha o app para o usuário instalar a nova
                 }
             }

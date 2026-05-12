@@ -56,7 +56,7 @@
             this.btnSalvar.Size = new System.Drawing.Size(120, 35);
             this.btnSalvar.TabIndex = 2;
             this.btnSalvar.Text = "SALVAR";
-            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
             // txtDirMDFe
             // 

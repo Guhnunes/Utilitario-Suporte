@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\login\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\login\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\menu\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\menu\\formmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\caminhofiscal\\formdirfiscal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\caminhofiscal\\formdirfiscal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\compartilhamento\\formcompartilhamento.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\compartilhamento\\formcompartilhamento.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\verificadoratualizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:verificadoratualizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\version.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:version.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.Designer.cs",
+              "RelativeDocumentMoniker": "Features\\Menu\\FormMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Menu\\FormMenu.Designer.cs",
+              "RelativeToolTip": "Features\\Menu\\FormMenu.Designer.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:02:37.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDirFiscal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\CaminhoFiscal\\FormDirFiscal.Designer.cs",
+              "RelativeDocumentMoniker": "Features\\CaminhoFiscal\\FormDirFiscal.Designer.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\CaminhoFiscal\\FormDirFiscal.Designer.cs",
+              "RelativeToolTip": "Features\\CaminhoFiscal\\FormDirFiscal.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:02:33.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormCompartilhamento.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\FormCompartilhamento.Designer.cs",
+              "RelativeDocumentMoniker": "Features\\Compartilhamento\\FormCompartilhamento.Designer.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\FormCompartilhamento.Designer.cs",
+              "RelativeToolTip": "Features\\Compartilhamento\\FormCompartilhamento.Designer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:02:25.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Features\\Login\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Login\\FormLogin.Designer.cs",
+              "RelativeToolTip": "Features\\Login\\FormLogin.Designer.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwFkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:59:18.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VerificadorAtualizacao.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\VerificadorAtualizacao.cs",
+              "RelativeDocumentMoniker": "VerificadorAtualizacao.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\VerificadorAtualizacao.cs",
+              "RelativeToolTip": "VerificadorAtualizacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:49:14.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "version.txt",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\version.txt",
+              "RelativeDocumentMoniker": "version.txt",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\version.txt",
+              "RelativeToolTip": "version.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-12T20:44:03.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwF0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T20:43:11.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -87,7 +87,7 @@
             this.btnLogin.Size = new System.Drawing.Size(320, 48);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "LOGIN";
-            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FormLogin

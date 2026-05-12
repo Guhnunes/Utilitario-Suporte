@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 public static class VerificadorAtualizacao
 {
     // URL do arquivo 'version.txt' no seu repositório (clique em 'Raw' no GitHub para pegar o link direto)
-    private const string UrlVersaoGithub = "https://github.com/Guhnunes/Utilitario-Suporte/blob/master/UtilitariosSuporte/version.txt";
+    private const string UrlVersaoGithub = "https://raw.githubusercontent.com/Guhnunes/Utilitario-Suporte/master/UtilitariosSuporte/version.txt";
 
     public static async Task<bool> IsVersaoAtualizada(string versaoLocal)
     {
