@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\features\\compartilhamento\\presenter\\compartilhamentopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\compartilhamento\\presenter\\compartilhamentopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAmwHwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:09:10.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CompartilhamentoPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "RelativeDocumentMoniker": "Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "RelativeToolTip": "Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T18:51:52.911Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
