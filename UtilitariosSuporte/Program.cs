@@ -74,7 +74,7 @@ namespace UtilitariosSuporte
                 if (resultado == DialogResult.Yes)
                 {
                     // Abre o navegador no link do repositório
-                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/raw/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte.exe?raw=true");
+                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/raw/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte_" + versaoLocal + ".exe?raw=true");
                     return;
                 }
             }
