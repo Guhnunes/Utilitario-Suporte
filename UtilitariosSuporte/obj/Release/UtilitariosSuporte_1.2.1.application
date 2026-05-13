@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="UtilitariosSuporte_1.2.1.exe.manifest" size="15182">
+    <dependentAssembly dependencyType="install" codebase="UtilitariosSuporte_1.2.1.exe.manifest" size="4833">
       <assemblyIdentity name="UtilitariosSuporte_1.2.1.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7IDYdj+QAn7TGq2Vv7NhJt957wP5mprjD4enDqxe2qY=</dsig:DigestValue>
+        <dsig:DigestValue>F43zWjeIoE4SBiElQRVendrlKJRV17MWTHScTHNsMdg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

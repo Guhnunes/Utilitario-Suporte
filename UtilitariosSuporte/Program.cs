@@ -59,7 +59,8 @@ namespace UtilitariosSuporte
 
             //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
             string caminhoVersao = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "version.txt");
-            string versaoLocal = File.Exists(caminhoVersao) ? File.ReadAllText(caminhoVersao).Trim() : "1.0.0";
+            //Alterar aqui e no arquivo version.txt antes de subir uma nova versão no git
+            string versaoLocal = "1.2.1";
 
             bool estaAtualizado = await VerificadorAtualizacao.IsVersaoAtualizada(versaoLocal);
 
