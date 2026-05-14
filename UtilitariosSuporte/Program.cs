@@ -60,7 +60,7 @@ namespace UtilitariosSuporte
             //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
             string caminhoVersao = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "version.txt");
             //Alterar aqui e no arquivo version.txt antes de subir uma nova versão no git
-            string versaoLocal = "1.2.1";
+            string versaoLocal = "1.2.2";
 
             bool estaAtualizado = await VerificadorAtualizacao.IsVersaoAtualizada(versaoLocal);
 

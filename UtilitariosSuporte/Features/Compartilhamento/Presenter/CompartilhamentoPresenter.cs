@@ -53,6 +53,8 @@ namespace UtilitariosSuporte.Features.Compartilhamento.Presenter
 
             ExecutarPrompt("powershell.exe -ExecutionPolicy Bypass -Command \"Set-SmbServerConfiguration -EnableSMB2Protocol $true -Force\"");
 
+            ExecutarPrompt("powershell.exe -ExecutionPolicy Bypass -Command \"Set-SmbClientConfiguration -RequireSecuritySignature $false -Force\"");
+
             ExecutarPrompt("reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\LanmanWorkstation\" /v AllowInsecureGuestAuth /t REG_DWORD /d 1 /f");
 
             ExecutarPrompt("reg add \"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\" /v everyoneincludesanonymous /t REG_DWORD /d 1 /f");
