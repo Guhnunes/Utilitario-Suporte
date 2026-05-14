@@ -59,23 +59,22 @@ namespace UtilitariosSuporte
 
             //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
             string caminhoVersao = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "version.txt");
-            //Alterar aqui e no arquivo version.txt antes de subir uma nova versão no git
-            string versaoLocal = "1.2.2";
+            //Sempre alterar aqui e no version.txt antes de subir uma nova versão no git
+            string versaoLocal = File.Exists(caminhoVersao) ? File.ReadAllText(caminhoVersao).Trim() : "1.2.3";
 
-            bool estaAtualizado = await VerificadorAtualizacao.IsVersaoAtualizada(versaoLocal);
+            string versaoDoServidor = await VerificadorAtualizacao.ObterVersaoDoServidor();
 
-            if (!estaAtualizado)
+            if (versaoLocal != versaoDoServidor)
             {
                 var resultado = MessageBox.Show(
-                    "Existe uma nova versão disponível no GitHub! Deseja baixar agora?",
+                    $"Existe uma nova versão ({versaoDoServidor}) disponível no GitHub! Deseja baixar agora?",
                     "Atualização Disponível",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Information);
 
                 if (resultado == DialogResult.Yes)
                 {
-                    // Abre o navegador no link do repositório
-                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/raw/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte_" + versaoLocal + ".exe?raw=true");
+                    Process.Start("https://github.com/Guhnunes/Utilitario-Suporte/raw/master/UtilitariosSuporte/bin/Release/app.publish/UtilitariosSuporte_" + versaoDoServidor + ".exe?raw=true");
                     return;
                 }
             }

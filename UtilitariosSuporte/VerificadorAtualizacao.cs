@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 public static class VerificadorAtualizacao
@@ -25,6 +26,25 @@ public static class VerificadorAtualizacao
         {
             // Se falhar a internet, ignora e deixa abrir o app
             return true;
+        }
+    }
+    public static async Task<string> ObterVersaoDoServidor()
+    {
+        try
+        {
+            using (var client = new HttpClient())
+            {
+                // Força o download do arquivo de texto bruto do seu GitHub
+                string url = "https://raw.githubusercontent.com/Guhnunes/Utilitario-Suporte/master/UtilitariosSuporte/version.txt";
+                string versaoRemota = await client.GetStringAsync(url);
+
+                return versaoRemota.Trim();
+            }
+        }
+        catch (Exception)
+        {
+            // Se o usuário estiver sem internet, retorna uma string vazia para não quebrar o app
+            return string.Empty;
         }
     }
 }

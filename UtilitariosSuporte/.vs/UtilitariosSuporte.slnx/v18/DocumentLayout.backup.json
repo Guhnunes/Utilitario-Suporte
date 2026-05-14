@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:version.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|c:\\users\\gusta\\desktop\\utilitariossuporte\\utilitariossuporte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\features\\compartilhamento\\presenter\\compartilhamentopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E624F30-BF99-45A8-9EC7-1EF48604D913}|UtilitariosSuporte.csproj|solutionrelative:features\\compartilhamento\\presenter\\compartilhamentopresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,22 +28,10 @@
               "RelativeDocumentMoniker": "version.txt",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\version.txt",
               "RelativeToolTip": "version.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-14T15:23:20.014Z",
+              "WhenOpened": "2026-05-14T15:56:50.176Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompartilhamentoPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "RelativeDocumentMoniker": "Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "RelativeToolTip": "Features\\Compartilhamento\\Presenter\\CompartilhamentoPresenter.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDcAAACVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T15:20:04.472Z"
             },
             {
               "$type": "Document",
@@ -57,9 +41,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gusta\\Desktop\\UtilitariosSuporte\\UtilitariosSuporte\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAADAB5J3DqEjwD0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T19:28:37.703Z"
+              "WhenOpened": "2026-05-14T15:56:31.081Z",
+              "EditorCaption": ""
             }
           ]
         }
